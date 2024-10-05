@@ -8,6 +8,8 @@ Para executar este projeto, você pode simplesmente copiar o código JavaScript 
 
 ## Tecnologias utilizadas
 - JavaScript
+- HTML
+- CSS
 
 ## Funcionalidades
 - Recebe a quantidade de números a serem sorteados.
@@ -18,7 +20,7 @@ Para executar este projeto, você pode simplesmente copiar o código JavaScript 
 - Habilita/desabilita botões para controle do sorteio.
 - Possui uma função de reinicialização que limpa os campos e o resultado.
 
-## Exemplos de uso
+## Exemplo de uso
 1. Insira a quantidade de números que deseja sortear.
 2. Defina o intervalo de números (valor mínimo e máximo).
 3. Clique no botão para sortear os números.
@@ -30,6 +32,8 @@ Este projeto aceita qualquer contribuição útil que ajude a manter o código a
 ## Links para documentação
 Para aprender mais sobre JavaScript e suas funcionalidades, consulte a [documentação oficial do JavaScript](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript). Este recurso abrangente oferece guias, tutoriais e referências detalhadas sobre a linguagem, permitindo que desenvolvedores de todos os níveis aprimorem suas habilidades e conhecimentos.
 
+## Comentários sobre o código
+O código JavaScript implementa um sorteador de números. A função `sortear` é responsável por coletar a quantidade de números a serem sorteados e o intervalo em que os nú
 
 
 
