@@ -31,50 +31,6 @@ Este projeto aceita qualquer contribuição útil que ajude a manter o código a
 Para aprender mais sobre JavaScript e suas funcionalidades, consulte a [documentação oficial do JavaScript](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript). Este recurso abrangente oferece guias, tutoriais e referências detalhadas sobre a linguagem, permitindo que desenvolvedores de todos os níveis aprimorem suas habilidades e conhecimentos.
 
 
-```javascript
-function sortear() {              
-    // Obtém a quantidade de números a serem sorteados a partir da entrada do usuário
-    let quantidade = parseInt(document.getElementById("quantidade").value); 
-    // Obtém o valor mínimo do intervalo a partir da entrada do usuário
-    let de = parseInt(document.getElementById("de").value);  
-    // Obtém o valor máximo do intervalo a partir da entrada do usuário
-    let ate = parseInt(document.getElementById("ate").value); 
 
-    // Valida se o limite inferior do intervalo é menor que o superior
-    if (de >= ate) {   
-        alert('Campo "Do número" deve ser inferior ao campo "Até o número". Verifique!');
-        return; // Sai da função se a validação falhar
-    }
-
-    let sorteados = []; // Array para armazenar os números sorteados
-    let numero; // Variável para armazenar o número sorteado
-
-    // Loop para sortear a quantidade de números especificada
-    for (let i = 0; i < quantidade; i++) {  
-        numero = obterNumeroAleatorio(de, ate); // Obtém um número aleatório no intervalo
-
-        // Verifica se o número já foi sorteado
-        while (sorteados.includes(numero)) {  
-            numero = obterNumeroAleatorio(de, ate); // Sorteia novamente se o número já foi sorteado
-
-            // Valida se a quantidade de números desejados não excede o intervalo disponível
-            if (quantidade > numero) { 
-                alert(`A quantidade de números desejados para o sorteio não pode ser superior à quantidade de números no intervalo ${de} até ${ate} `);
-                return; // Sai da função se a validação falhar
-            }
-        }
-
-        sorteados.push(numero); // Adiciona o número sorteado à lista
-    }
-
-    // Exibe os números sorteados no HTML
-    let resultado = document.getElementById("resultado");
-    resultado.innerHTML = `<label class="texto__paragrafo">Números sorteados: ${sorteados.join(", ")}</label>`;  
-    alterarStatusBotao(); // Atualiza o status do botão
-}
-
-// Função para gerar um número aleatório entre min e max
-function obterNumeroAleatorio(min, max) {  
-    return Math.floor(Math.random() * (max - min + 1)) + min; // Retorna um número inteiro aleatór
 
       
