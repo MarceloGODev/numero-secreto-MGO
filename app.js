@@ -23,7 +23,7 @@ function sortear() {               //sorteio de uma quantidade de numeros dentre
             numero = obterNumeroAleatorio(de, ate);
 
             if(quantidade > numero) { //verificar se a quantidade de números escolhidos no campo “Quantidade de números” é igual ou inferior ao intervalo de números entre os campos “Do número” e “Até o número”
-                alert(`A quantidade de números desejados para o sorteio não pode ser superior à quantidade de números no intervalo ${de} até ${ate} `);
+                alert(A quantidade de números desejados para o sorteio não pode ser superior à quantidade de números no intervalo ${de} até ${ate} );
                 return;
             }
         }
@@ -34,7 +34,7 @@ function sortear() {               //sorteio de uma quantidade de numeros dentre
     }
 
     let resultado = document.getElementById("resultado");
-    resultado.innerHTML = `<label class="texto__paragrafo">Números sorteados: ${sorteados.join(", ")}</label>`;  // Formatando como os números sorteados serão apresentados
+    resultado.innerHTML = <label class="texto__paragrafo">Números sorteados: ${sorteados.join(", ")}</label>;  // Formatando como os números sorteados serão apresentados
     alterarStatusBotao();
 }
 
