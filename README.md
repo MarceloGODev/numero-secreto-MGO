@@ -1,4 +1,4 @@
-# Sorteio de Números em JavaScript
+# Sorteio de Números 
 
 ## Descrição
 Este código em **JavaScript** realiza o sorteio de uma quantidade de números dentro de um intervalo definido pelo usuário. Ele garante que os números sorteados não se repitam e valida se a quantidade de números solicitados não excede o intervalo disponível.
