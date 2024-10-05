@@ -1,7 +1,7 @@
 # Sorteio de Números 
 
 ## Descrição
-Este código em **JavaScript** realiza o sorteio de uma quantidade de números dentro de um intervalo definido pelo usuário. Ele garante que os números sorteados não se repitam e valida se a quantidade de números solicitados não excede o intervalo disponível.
+Este código realiza o sorteio de uma quantidade de números dentro de um intervalo definido pelo usuário. Ele garante que os números sorteados não se repitam e valida se a quantidade de números solicitados não excede o intervalo disponível.
 
 ## Como instalar e rodar o projeto
 Para executar este projeto, você pode simplesmente copiar o código JavaScript para um arquivo chamado `app.js` e abrir o arquivo HTML que o contém em um navegador da web. Não há dependências externas.
@@ -40,7 +40,8 @@ O CSS é utilizado para estilizar a aplicação, proporcionando uma melhor exper
 ### JavaScript
 O JavaScript é a parte do código que traz interatividade à aplicação. Ele puxa informações do HTML por meio do uso de métodos como `document.getElementById()`, que permite acessar os valores inseridos pelo usuário nos campos de entrada. As funções JavaScript realizam a lógica do sorteio, gerando números aleatórios dentro do intervalo especificado, garantindo que os números sorteados não se repitam. Além disso, o JavaScript atualiza a interface do usuário com os resultados do sorteio e gerencia o estado dos botões (ativando ou desativando) com base nas ações do usuário.
 
-
+### Agradecimentos
+Agradecimento especial à Alura pelos excelentes cursos e materiais que contribuíram para o desenvolvimento deste projeto.
 
 
 
